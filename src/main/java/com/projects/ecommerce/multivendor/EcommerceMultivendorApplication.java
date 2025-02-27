@@ -9,7 +9,7 @@ public class EcommerceMultivendorApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EcommerceMultivendorApplication.class, args);
-		System.out.println("Server listening on port : 8080");
+		
 	}
 
 }
