@@ -42,7 +42,6 @@ public class AppConfig {
     CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowedOrigins(List.of(
-            "http://localhost:5173", 
            " https://shop-easy-srihari-mittapallys-projects.vercel.app", 
         "
         ));
